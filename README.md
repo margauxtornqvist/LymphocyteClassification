@@ -1,8 +1,9 @@
 # LymphocyteClassification
 Multi-instance Level classification of images of lymphocytes
 
-
-![Fig1](https://user-images.githubusercontent.com/46713435/112282962-e8d9e600-8c87-11eb-9f60-e6de582c7c1d.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/46713435/112282962-e8d9e600-8c87-11eb-9f60-e6de582c7c1d.jpg" />
+</p>
 
 This work focuses on predicting lymphocyte diagnosis for a patient given two types of data: lymphocyte microscopic images and clinical attributes such as age and lymphocyte concentration, by using deep learning methods. Convolutional neural networks are trained on bags of various size of microscopic images to extract meaningful features whereas a linear classifier is trained to predict the outcome from the clinical data. Moreover, we explore different ways of combining the outputs of each of these classifiers to predict the correct label for a given patient. We face the difficulties of multi-instance learning in a medical context, where even clinicians have variable consensus on the diagnosis. Finally our best results report a balanced accuracy of $78.96\%$ on the private leaderboard. 
 
