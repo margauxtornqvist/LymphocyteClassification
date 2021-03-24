@@ -1,6 +1,8 @@
 # LymphocyteClassification
 Multi-instance Level classification of images of lymphocytes
 
+This project was done in the context of Kaggle competition (https://www.kaggle.com/c/3md3070-dlmi/overview)
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/46713435/112282962-e8d9e600-8c87-11eb-9f60-e6de582c7c1d.jpg" />
 </p>
